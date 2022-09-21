@@ -1,0 +1,55 @@
+.background-radial-gradient {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+#tituloUm {
+  color: hsl(218, 81%, 95%);
+  font-family: 'Playfair Display', serif;
+}
+
+#tituloDois {
+  color: hsl(218, 81%, 75%)
+}
+
+#textoDemonstrativo {
+  color: hsl(218, 81%, 85%);
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 25px;
+}
+.form-outline{
+  width: 80%;
+  display: block;
+  margin: 40px auto;
+}
+#btnLogin{
+  width: 20%;
+  display: block;
+  margin: 40px auto;
+}
