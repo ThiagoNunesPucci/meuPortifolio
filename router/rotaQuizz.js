@@ -7,6 +7,6 @@ const loginController = require('../controllers/quizzController');
 
 router.get('/', (req, res) => {
   
-  res.render('login');
+  res.render('quizz');
 });
 module.exports = router;
