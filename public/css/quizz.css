@@ -14,10 +14,6 @@ body {
     align-items: center;
 }
 
-main {
-    width: 100%;
-}
-
 .menuQuiz img {
     width: 250px;
     padding-top: 1%;
@@ -63,8 +59,11 @@ main {
 }
 
 .logadoQuiz a {
-    color: hsla(0, 0%, 100%, 0.329);
+    color: hsla(0, 40%, 94%, 0.329);
     text-decoration: none;
+}
+.logadoQuiz a:hover{
+    color: white;
 }
 
 .btn {
